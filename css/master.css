@@ -1,0 +1,79 @@
+/* NAVBAR */
+
+.navbar.navbar-default {
+  background-color: #ffffff;
+}
+
+.collapse.navbar-collapse ul li a {
+  color: #5a6887;
+}
+
+.my-navbar-padding {
+  padding-left: 80px;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+.glyphicon.glyphicon-menu-down {
+  font-size: 10px;
+  top: 0; /* NOTE: .glyphicon ha position relative e top:1px di default */
+  bottom: 1px;
+}
+
+.my-white-blue-button {
+  background-color: #ffffff;
+  color: #2285fd;
+  border: 1px solid #2285fd;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #2285fd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2285fd;
+}
+
+@media all and (max-width: 991px) {
+
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-toggle {
+    display: inline-block;
+  }
+
+  .navbar-nav {
+    display: none;
+    margin: 0;
+  }
+
+  .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: 0;
+  }
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  background-image: url(../assets/jumbo-ocean.svg);
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.card-jumbotron {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.card-h2-blue {
+  color:#006aff;
+}
