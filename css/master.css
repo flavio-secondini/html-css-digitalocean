@@ -2,6 +2,7 @@
 
 * {
   color: #5c6a88;
+  font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-purple {
   color: #142b58;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.font-18 {
+  font-size: 18px;
 }
 
 /* NAVBAR */
@@ -105,7 +114,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-jumbotron h2 {
   margin: 10px 0;
-  font-weight: bold;
 }
 
 .card-jumbotron .form-control {
@@ -154,7 +162,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .main1 h4 {
   padding: 50px 0;
-  font-weight: bold;
 }
 
 .main1 h4 .glyphicon-menu-right {
@@ -163,6 +170,118 @@ h1, h2, h3, h4, h5, h6 {
 
 /* MAIN2 */
 
-.main2-nav ul li a{
+.main2-relative {
+  position: relative;
+}
+
+.main2-title {
+  margin: 50px 0;
+}
+
+/* navbar per i formati sm, md e lg */
+.main2-nav {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.main2-nav ul li a {
   display: block;
+  border-left: 1px solid;
+  color: #75809a;
+  border-color: #75809a;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+
+.main2-nav ul li {
+  list-style: none;
+  margin-top: 60px;
+}
+
+.main2-card {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* navbar hidden per il formato xs */
+#xs-navbar-hidden {
+  display: none;
+}
+
+#xs-navbar-hidden ul {
+  padding: 0;
+}
+
+#xs-navbar-hidden ul li {
+  list-style: none;
+  margin-top: 50px;
+}
+
+#xs-navbar-hidden ul li a {
+  display: block;
+  border-left: 1px solid;
+  color: #75809a;
+  border-color: #75809a;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+
+@media all and (max-width: 767px) {
+
+  #xs-navbar-hidden {
+    display: block;
+  }
+
+  .main2-nav {
+    display: none;
+  }
+}
+
+/* MAIN3 */
+
+.main3 {
+  margin-top: 50px;
+}
+
+.main3 h1 {
+  margin-bottom: 20px;
+}
+
+.main3-title {
+  margin: 50px 0;
+}
+
+.main3-card img {
+  width: 40%;
+  height: auto;
+  margin: 20px;
+}
+
+.main3-dots i {
+  color: #006aff;
+  padding: 0 2px;
+}
+
+.fa-angle-left, .fa-angle-right {
+  font-size: 40px;
+}
+
+.fa-angle-right {
+  color: #031c4e;
+}
+
+@media all and (max-width: 991px) {
+
+  .main3-dots {
+    display: block;
+    margin-top: 100px;
+  }
+}
+
+@media all and (max-width: 767px) {
+
+  .fa-angle-left, .fa-angle-right {
+    display: none;
+  }
 }
