@@ -1,11 +1,12 @@
 /* GENERAL */
 
 * {
-  color: #848fa5;
+  color: #5c6a88;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #142b58;
+  color: #031c4e;
+  font-weight: bold;
 }
 .text-light-gray {
   color: #6f7b97;
@@ -158,4 +159,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .main1 h4 .glyphicon-menu-right {
   font-size: 12px;
+}
+
+/* MAIN2 */
+
+.main2-nav ul li a{
+  display: block;
 }
