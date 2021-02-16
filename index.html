@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Digital Ocean</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/master.css">
 </head>
@@ -12,6 +13,8 @@
 <body>
 
   <header>
+
+    <!-- navbar -->
     <section>
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -76,6 +79,8 @@
       </nav>
     </section>
 
+
+    <!--  jumbotron -->
     <section>
       <div class="jumbotron">
         <div class="container">
@@ -84,19 +89,19 @@
               <h1>
                 The simplest cloud platform for developers & teams
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              <p class="jumbotron-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-5">
               <div class="card-jumbotron text-center">
                 <h2>Deploy your app in seconds.</h2>
-                <h2 class="card-h2-blue">Get started now.</h2>
+                <h2 class="text-blue">Get started now.</h2>
                 <input type="text" class="form-control" placeholder="Email">
                 <input type="text" class="form-control" placeholder="Password">
-                <button class="btn btn-default my-standard-button" type="submit">Create your account</button>
-                <button class="btn btn-default my-standard-button" type="submit">Sign up with google</button>
-                <p class="card-h2-p">By signing up you agree to the <a href="#">Terms of service</a></p>
+                <button class="btn btn-default my-blue-button" type="submit">Create your account</button>
+                <button class="btn btn-default my-google-button" type="submit"><img src="./assets/google-icon.png" alt="icona google" class="google-icon">Sign up with google</button>
+                <p class="card-p text-purple">By signing up you agree to the <u><a href="#">Terms of service</a></u></p>
               </div>
             </div>
           </div>
@@ -106,7 +111,63 @@
 
   </header>
 
-  <main></main>
+  <main>
+
+    <!-- main1 -->
+    <section>
+      <div class="bg-light-gray main1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <h4 class="text-uppercase text-light-gray">
+                innovative business trust digitalocean
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-1">
+                <img src="./assets/docker.svg" alt="logo docker">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-2">
+                <img src="./assets/gitlab.svg" alt="logo gitlab">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-3">
+                <img src="./assets/slack.svg" alt="logo slack">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-4">
+                <img src="./assets/hashicorp.svg" alt="logo ashicorp">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-5">
+                <img src="./assets/splunk.svg" alt="logo splunk">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+              <div class="main1-logos-6">
+                <img src="./assets/wework.svg" alt="logo wework">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <h4 class="text-blue">
+                View customer stories <span class="glyphicon glyphicon-menu-right text-blue"></span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer></footer>
 

@@ -1,3 +1,24 @@
+/* GENERAL */
+
+* {
+  color: #848fa5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #142b58;
+}
+.text-light-gray {
+  color: #6f7b97;
+}
+
+.text-blue {
+  color: #006aff;
+}
+
+.text-purple {
+  color: #142b58;
+}
+
 /* NAVBAR */
 
 .navbar.navbar-default {
@@ -5,7 +26,7 @@
 }
 
 .collapse.navbar-collapse ul li a {
-  color: #5a6887;
+  color: #142b58;
 }
 
 .my-navbar-padding {
@@ -64,16 +85,77 @@
 
 .jumbotron {
   background-image: url(../assets/jumbo-ocean.svg);
+  background-repeat: repeat;
   color: #ffffff;
-  margin-top: 50px;
+  margin: 50px 0 0 0;
+}
+
+.jumbotron h1, .jumbotron-p {
+  color: #ffffff;
 }
 
 .card-jumbotron {
   background-color: #ffffff;
   color: #000000;
   border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
-.card-h2-blue {
-  color:#006aff;
+.card-jumbotron h2 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.card-jumbotron .form-control {
+  margin: 10px 0;
+}
+
+.my-blue-button {
+  width: 100%;
+  background-color: #579aff;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.my-google-button {
+  width: 100%;
+  background-color: #ffffff;
+  color: #626262;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.google-icon {
+  width: 20px;
+  height: auto;
+  float: left;
+}
+
+.card-jumbotron .card-p {
+  font-size: 14px;
+}
+
+/* MAIN 1 */
+
+.bg-light-gray {
+  background-color: #f3f5f9;
+}
+
+[class^=main1-logos-] {
+  margin: 0 -10px;
+}
+
+[class^=main1-logos-] img {
+  height: 80px;
+  width: 100%;
+}
+
+.main1 h4 {
+  padding: 50px 0;
+  font-weight: bold;
+}
+
+.main1 h4 .glyphicon-menu-right {
+  font-size: 12px;
 }
