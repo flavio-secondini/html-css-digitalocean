@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-.glyphicon.glyphicon-menu-down {
+.glyphicon.glyphicon-menu-down, .glyphicon.glyphicon-menu-right {
   font-size: 10px;
-  top: 0; /* NOTE: .glyphicon ha position relative e top:1px di default */
+  top: 0; /* NOTE: .glyphicon nella navbar ha position relative e top:1px di default */
   bottom: 1px;
 }
 
@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffffff;
   color: #2285fd;
   border: 1px solid #2285fd;
+  font-weight: bold;
   border-radius: 5px;
   margin-top: 8px;
 }
@@ -170,8 +171,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* MAIN2 */
 
-.main2-relative {
+.main2 {
   position: relative;
+  padding-bottom: 50px;
 }
 
 .main2-title {
@@ -241,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 /* MAIN3 */
 
 .main3 {
-  margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main3 h1 {
@@ -284,4 +286,104 @@ h1, h2, h3, h4, h5, h6 {
   .fa-angle-left, .fa-angle-right {
     display: none;
   }
+}
+
+/* MAIN4 */
+
+.main4 {
+  padding-bottom: 50px;
+}
+
+.main4-title {
+  margin: 60px 0 30px 0;
+}
+
+.main4 img {
+  margin: 20px 0 10px 0;
+}
+
+/* MAIN5 */
+
+.main5 {
+  background-color: #0039b7;
+  padding-bottom: 50px;
+}
+
+.main5-title h1 {
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.table-cell {
+  border-bottom: 1px solid #ffffff;
+  margin: 5px;
+}
+
+.table-cell p {
+  color: #ffffff;
+}
+
+.text-blue-main5 {
+  color: #00d7d2;
+}
+
+.last-table-cell {
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+.last-table-cell-sm {
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+@media all and (max-width: 768px) {
+
+  .last-table-cell-xs {
+    border-bottom: none;
+    padding-bottom: 20px;
+  }
+
+  .last-table-cell-sm {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0;
+  }
+}
+
+/* MAIN6 */
+
+
+
+/* FOOTER1 */
+
+.footer1 {
+  background-color: #0039b2;
+  padding: 50px 0;
+}
+
+.footer1 h1 {
+  color: #ffffff;
+}
+
+.footer1-button {
+  padding: 10px;
+}
+
+/* FOOTER2 */
+
+.footer2 {
+  background-color: #031c4e;
+}
+
+.footer2 h4 {
+  color: #ffffff;
+}
+
+.footer2-list ul {
+  padding: 0;
+}
+
+.footer2-list ul li {
+  list-style: none;
+  color: #ffffff;
 }
