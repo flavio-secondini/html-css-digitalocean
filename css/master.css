@@ -459,6 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   height: auto;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px;
 }
 
 .bubble-speech {
@@ -472,6 +473,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-weight: bold;
   padding: 10px;
+  box-shadow: 1px 1px 5px 1px;
 }
 
 .bubble-speech span {
