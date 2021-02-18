@@ -1,5 +1,5 @@
 /* GENERAL */
-/* NOTE: dare padding superiore o inferiore a un container lo fa strabordare in width */
+/* NOTE: dare padding laterale zero a un container lo fa strabordare in width */
 
 * {
   color: #5c6a88;
